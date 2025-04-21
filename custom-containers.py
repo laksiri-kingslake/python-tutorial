@@ -37,3 +37,6 @@ print(len(cloud))
 
 for tag in cloud:
     print(tag, cloud[tag])
+
+print(cloud.__dict__)
+print(cloud._TagCloud__tags["python"]) # private variable
